@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: rgb(9, 38, 132);
+    font-weight: 600;
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.btn{
+    margin-top: 10px;
+}
