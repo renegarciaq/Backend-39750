@@ -1,0 +1,38 @@
+<form action="" id="formulario">
+    <div class="">
+        <label for="titleID" class="form-label">Title:</label>
+        <input name="title" type="text" class="form-control" id="titleID">
+
+        <label for="Description" class="form-label">Description:</label>
+        <input name="description" type="text" class="form-control" id="Description">
+
+        <label for="Category" class="form-label">Category:</label>
+        <input name="category" type="text" class="form-control" id="Category">
+
+        <label for="Price" class="form-label">Price:</label>
+        <input name="price" type="number" class="form-control" id="Price">
+
+        <label for="Status" class="form-label">Status:</label>
+        <input name="status" type="checkbox" class="" id="Status" checked>
+        <br>
+
+        <label for="Thumbnail" class="form-label">Thumbnail:</label>
+        <input name="thumbnail" type="file" class="form-control">
+
+        <label for="Code" class="form-label">Code:</label>
+        <input name="code" type="text" class="form-control" id="Code">
+
+        <label for="Stock" class="form-label">Stock:</label>
+        <input name="stock" type="number" class="form-control" id="Stock">
+
+        <input type="submit" value="Enviar">
+    </div>
+</form>
+
+
+<div id="products">
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="static/js/realTimeProducts.js"></script>
